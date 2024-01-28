@@ -1,0 +1,13 @@
+
+
+
+# make a file using either vi or touch
+# using .sh (extension) is not necessary.
+# see its content using cat command
+
+
+
+# before executing the shell script give it executable permission using chmod +x filename
+
+
+
