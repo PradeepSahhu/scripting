@@ -80,3 +80,11 @@ echo "age is ${my_array[age]}"
 
 ss="Pradeep"
 echo "${#ss}" # output is the length of the string
+
+#user Interaction
+#Taking input from the user.
+
+#echo "Enter your user Name"
+read -p "Enter your userName "  name
+echo "The user inputted the $name"
+
