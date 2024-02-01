@@ -36,6 +36,7 @@ EOF
 fi
 
 wait
+echo "Made by Pradeep Sahu ( 22BCS10284 ) Link : https://www.linkedin.com/in/pradeep-sahu-759720224/"
 
 
 while IFS= read -r line; do
