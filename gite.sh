@@ -16,8 +16,10 @@ else
     read message
     if [ "$message" == "y" ]; then
         echo "Creating a gitfile.txt"
+        echo "Enter the commit message"
+        read commit_message
         cat > "$gitFile" <<EOF
-This is the default message
+"$commit_message"
 EOF
     
         if [ -f "$gitFile" ];
