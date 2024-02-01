@@ -1,1 +1,1 @@
-Added the git Script to commit to GitHub directly (1st Feb 2024)
+	This is the default message

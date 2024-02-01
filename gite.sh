@@ -7,13 +7,23 @@
 gitFile="./gitfile.txt"
 
 
-if [ -f "$gitFile" ]
+if [ -f "$gitFile" ];
 then
 	echo "File Exist & Reading file contents"
-
+else
+	echo "File Doesn't Exist"
+	echo "Creating a gitfile.txt"
+	cat > "$gitFile" <<EOF
+	This is the default message
+EOF
+	if [ -f "$gitFile" ];
+	then
+		echo "File created and added default message successfully"
+	fi
 fi
 
-sleep 1
+wait
+
 
 while IFS= read -r line; do
 	git add .
