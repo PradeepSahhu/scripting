@@ -19,7 +19,7 @@ else
         echo "Enter the commit message"
         read commit_message
         cat > "$gitFile" <<EOF
-"$commit_message"
+$commit_message
 EOF
     
         if [ -f "$gitFile" ];
