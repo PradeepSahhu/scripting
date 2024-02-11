@@ -11,8 +11,11 @@ current_date=$(date +"%Y-%m-%d")
 # Output the current date
 echo "Current date: $current_date"
 
+git add .
+git commit -m "added and made changes to the main directory"
+git push -u origin master
 
-cd /textFile
+cd textFile
 
 
 touch "$current_date" 
