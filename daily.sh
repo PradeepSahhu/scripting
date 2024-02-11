@@ -15,7 +15,7 @@ echo "Current date: $current_date"
 
 
 
-touch "$current_date" 
+touch /textFile/"$current_date" 
 git add .
 git commit -m  "This is the file"
 git push -u origin master
